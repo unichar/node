@@ -1,0 +1,23 @@
+{
+	"name": "unichar",
+	"description": "Remote API in Node.js for UniChar",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://unichar.net",
+	"keywords": ["unichar", "crud", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/unichar/node.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"underscore": "*",
+		"passport": "*",
+		"passport-unichar": "*"
+	}
+}
